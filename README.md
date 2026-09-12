@@ -4,6 +4,9 @@
 field carries the exact source text it came from.** Hover a field and the span it was read
 from highlights in the rendered document; click and the highlight pins.
 
+**→ Live: [pdf-extractor-hashim.vercel.app](https://pdf-extractor-hashim.vercel.app)** — three
+sample documents are built in, so there is nothing to upload.
+
 [![CI](../../actions/workflows/ci.yml/badge.svg)](../../actions/workflows/ci.yml)
 ![Next.js 16](https://img.shields.io/badge/Next.js-16-000?logo=nextdotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6?logo=typescript&logoColor=white)
