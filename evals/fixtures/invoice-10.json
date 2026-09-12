@@ -1,0 +1,33 @@
+{
+  "type": "invoice",
+  "file": "invoice-10.pdf",
+  "fields": {
+    "invoiceNumber": "INV-2024-0809",
+    "issueDate": "2024-09-18",
+    "dueDate": "2024-09-28",
+    "currency": "GBP",
+    "vendor.name": "Tessellate Media",
+    "vendor.address": "88 Ardith Road, Leeds LS2 7EX",
+    "vendor.taxId": null,
+    "vendor.email": "accounts@tessellatemedia.example",
+    "customer.name": "Blueharbor Systems",
+    "customer.address": "7 Tallow Street, Cardiff CF10 3AF",
+    "subtotal": 6035.29,
+    "taxRate": 23,
+    "taxAmount": 1388.12,
+    "total": 7423.41,
+    "paymentTerms": "Net 14",
+    "lineItems[0].description": "Courier, next day",
+    "lineItems[0].quantity": 6,
+    "lineItems[0].unitPrice": 645.3,
+    "lineItems[0].total": 3871.8,
+    "lineItems[1].description": "Equipment hire, weekly",
+    "lineItems[1].quantity": 5,
+    "lineItems[1].unitPrice": 38.3,
+    "lineItems[1].total": 191.5,
+    "lineItems[2].description": "Cold storage, per week",
+    "lineItems[2].quantity": 3,
+    "lineItems[2].unitPrice": 657.33,
+    "lineItems[2].total": 1971.99
+  }
+}

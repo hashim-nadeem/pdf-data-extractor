@@ -1,0 +1,57 @@
+{
+  "type": "cv",
+  "file": "cv-01.pdf",
+  "fields": {
+    "fullName": "Ada Marlow",
+    "email": "ada.marlow@mailbox.example",
+    "phone": "+44 7700 900000",
+    "location": "Bristol",
+    "headline": "Senior Backend Engineer",
+    "summary": null,
+    "skills": [
+      "TypeScript",
+      "Python",
+      "PostgreSQL",
+      "Kubernetes",
+      "Figma"
+    ],
+    "languages": [
+      "English",
+      "French"
+    ],
+    "certifications": null,
+    "education[0].institution": "University of Ravenshill",
+    "education[0].degree": "BSc",
+    "education[0].field": "Computer Science",
+    "education[0].startDate": "2012-09-01",
+    "education[0].endDate": "2015-06-30",
+    "education[0].grade": "First class honours",
+    "experience[0].company": "Northwind Ltd",
+    "experience[0].title": "Senior Backend Engineer",
+    "experience[0].startDate": "2022-07-01",
+    "experience[0].endDate": null,
+    "experience[0].current": true,
+    "experience[0].highlights": [
+      "Cut batch runtime by 32%.",
+      "Led a team of 6 across 4 services."
+    ],
+    "experience[1].company": "Vantage Print Co",
+    "experience[1].title": "Data Platform Engineer",
+    "experience[1].startDate": "2018-06-01",
+    "experience[1].endDate": "2020-06-30",
+    "experience[1].current": false,
+    "experience[1].highlights": [
+      "Cut batch runtime by 24%.",
+      "Led a team of 6 across 4 services."
+    ],
+    "experience[2].company": "Meridian Foods",
+    "experience[2].title": "Product Designer",
+    "experience[2].startDate": "2015-06-01",
+    "experience[2].endDate": "2017-06-30",
+    "experience[2].current": false,
+    "experience[2].highlights": [
+      "Cut page load by 31%.",
+      "Led a team of 4 across 2 services."
+    ]
+  }
+}

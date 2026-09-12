@@ -1,0 +1,30 @@
+{
+  "type": "contract",
+  "file": "contract-05.pdf",
+  "fields": {
+    "title": "Supply Agreement",
+    "parties[0].name": "Kestrel Analytics",
+    "parties[0].role": "Supplier",
+    "parties[0].address": "7 Tallow Street, Manchester M2 5LA",
+    "parties[1].name": "Copperline Freight",
+    "parties[1].role": "Client",
+    "parties[1].address": "30 Cadmium Close, Exeter EX4 6PL",
+    "effectiveDate": "2024-09-16",
+    "expiryDate": "2026-09-16",
+    "term": "24 months",
+    "governingLaw": "Irish law",
+    "jurisdiction": "the courts of Ireland",
+    "paymentTerms": "Net 45",
+    "terminationNotice": "60 days",
+    "autoRenew": true,
+    "obligations": [
+      "Client shall provide access to its premises on five days notice.",
+      "Supplier shall maintain professional indemnity insurance of at least 1,000,000.",
+      "Each party shall keep the other's Confidential Information secret."
+    ],
+    "keyDates[0].date": "2024-09-16",
+    "keyDates[0].description": "Commencement Date",
+    "keyDates[1].date": "2024-11-15",
+    "keyDates[1].description": "First review meeting"
+  }
+}

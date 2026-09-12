@@ -1,0 +1,59 @@
+{
+  "type": "cv",
+  "file": "cv-06.pdf",
+  "fields": {
+    "fullName": "Colm Hartley",
+    "email": "colm.hartley@mailbox.example",
+    "phone": "+44 7700 900685",
+    "location": "Glasgow",
+    "headline": "Analytics Lead",
+    "summary": "Analytics Lead with 8 years building data-heavy products in regulated settings.",
+    "skills": [
+      "TypeScript",
+      "Python",
+      "PostgreSQL",
+      "Kubernetes",
+      "Figma"
+    ],
+    "languages": [
+      "Spanish",
+      "German"
+    ],
+    "certifications": [
+      "AWS Solutions Architect Associate"
+    ],
+    "education[0].institution": "University of Ravenshill",
+    "education[0].degree": "BSc",
+    "education[0].field": "Computer Science",
+    "education[0].startDate": "2013-09-01",
+    "education[0].endDate": "2016-06-30",
+    "education[0].grade": null,
+    "experience[0].company": "Ironwood Supplies",
+    "experience[0].title": "Analytics Lead",
+    "experience[0].startDate": "2022-12-01",
+    "experience[0].endDate": null,
+    "experience[0].current": true,
+    "experience[0].highlights": [
+      "Cut batch runtime by 52%.",
+      "Led a team of 5 across 2 services."
+    ],
+    "experience[1].company": "Copperline Freight",
+    "experience[1].title": "Senior Backend Engineer",
+    "experience[1].startDate": "2018-12-01",
+    "experience[1].endDate": "2020-06-30",
+    "experience[1].current": false,
+    "experience[1].highlights": [
+      "Cut page load by 35%.",
+      "Led a team of 7 across 4 services."
+    ],
+    "experience[2].company": "Pindrop Audio",
+    "experience[2].title": "Data Platform Engineer",
+    "experience[2].startDate": "2015-08-01",
+    "experience[2].endDate": "2017-06-30",
+    "experience[2].current": false,
+    "experience[2].highlights": [
+      "Cut batch runtime by 70%.",
+      "Led a team of 3 across 2 services."
+    ]
+  }
+}

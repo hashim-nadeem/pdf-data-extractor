@@ -1,0 +1,29 @@
+{
+  "type": "invoice",
+  "file": "invoice-18.pdf",
+  "fields": {
+    "invoiceNumber": "INV-2024-0817",
+    "issueDate": "2024-03-06",
+    "dueDate": "2024-03-28",
+    "currency": "USD",
+    "vendor.name": "Ironwood Supplies",
+    "vendor.address": "88 Ardith Road, Leeds LS2 7EX",
+    "vendor.taxId": "GB705328503",
+    "vendor.email": "accounts@ironwoodsupplies.example",
+    "customer.name": "Halcyon Metalworks",
+    "customer.address": "7 Tallow Street, Cardiff CF10 3AF",
+    "subtotal": 7505.43,
+    "taxRate": 23,
+    "taxAmount": 1726.25,
+    "total": 9231.68,
+    "paymentTerms": "Net 14",
+    "lineItems[0].description": "Site survey",
+    "lineItems[0].quantity": 12,
+    "lineItems[0].unitPrice": 400.97,
+    "lineItems[0].total": 4811.64,
+    "lineItems[1].description": "Pallet handling, per unit",
+    "lineItems[1].quantity": 11,
+    "lineItems[1].unitPrice": 244.89,
+    "lineItems[1].total": 2693.79
+  }
+}

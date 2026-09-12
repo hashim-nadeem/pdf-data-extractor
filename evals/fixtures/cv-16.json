@@ -1,0 +1,47 @@
+{
+  "type": "cv",
+  "file": "cv-16.pdf",
+  "fields": {
+    "fullName": "Dmitri Vance",
+    "email": "dmitri.vance@mailbox.example",
+    "phone": "+44 7700 902055",
+    "location": "Exeter",
+    "headline": "Operations Manager",
+    "summary": null,
+    "skills": [
+      "TypeScript",
+      "Python",
+      "PostgreSQL",
+      "Kubernetes",
+      "Figma"
+    ],
+    "languages": null,
+    "certifications": [
+      "AWS Solutions Architect Associate"
+    ],
+    "education[0].institution": "University of Ravenshill",
+    "education[0].degree": "BSc",
+    "education[0].field": "Computer Science",
+    "education[0].startDate": "2015-09-01",
+    "education[0].endDate": "2018-06-30",
+    "education[0].grade": "First class honours",
+    "experience[0].company": "Vantage Print Co",
+    "experience[0].title": "Operations Manager",
+    "experience[0].startDate": "2021-08-01",
+    "experience[0].endDate": null,
+    "experience[0].current": true,
+    "experience[0].highlights": [
+      "Cut page load by 37%.",
+      "Led a team of 9 across 4 services."
+    ],
+    "experience[1].company": "Meridian Foods",
+    "experience[1].title": "Site Reliability Engineer",
+    "experience[1].startDate": "2018-11-01",
+    "experience[1].endDate": "2020-06-30",
+    "experience[1].current": false,
+    "experience[1].highlights": [
+      "Cut error rate by 21%.",
+      "Led a team of 3 across 2 services."
+    ]
+  }
+}

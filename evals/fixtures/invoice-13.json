@@ -1,0 +1,33 @@
+{
+  "type": "invoice",
+  "file": "invoice-13.pdf",
+  "fields": {
+    "invoiceNumber": "INV-2024-0812",
+    "issueDate": "2024-04-16",
+    "dueDate": null,
+    "currency": "GBP",
+    "vendor.name": "Northwind Ltd",
+    "vendor.address": "7 Tallow Street, Manchester M2 5LA",
+    "vendor.taxId": null,
+    "vendor.email": "accounts@northwindltd.example",
+    "customer.name": "Ironwood Supplies",
+    "customer.address": "9 Purbeck Avenue, Norwich NR1 3RJ",
+    "subtotal": 12554.99,
+    "taxRate": 20,
+    "taxAmount": 2511,
+    "total": 15065.99,
+    "paymentTerms": "Net 30",
+    "lineItems[0].description": "Design retainer, monthly",
+    "lineItems[0].quantity": 9,
+    "lineItems[0].unitPrice": 771.37,
+    "lineItems[0].total": 6942.33,
+    "lineItems[1].description": "Packaging materials",
+    "lineItems[1].quantity": 2,
+    "lineItems[1].unitPrice": 741.23,
+    "lineItems[1].total": 1482.46,
+    "lineItems[2].description": "Pallet handling, per unit",
+    "lineItems[2].quantity": 10,
+    "lineItems[2].unitPrice": 413.02,
+    "lineItems[2].total": 4130.2
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "type": "cv",
+  "file": "cv-05.pdf",
+  "fields": {
+    "fullName": "Farah Nasser",
+    "email": "farah.nasser@mailbox.example",
+    "phone": "+44 7700 900548",
+    "location": "Manchester",
+    "headline": "Site Reliability Engineer",
+    "summary": "Site Reliability Engineer with 13 years building data-heavy products in regulated settings.",
+    "skills": [
+      "Figma",
+      "SQL",
+      "Rust",
+      "React",
+      "Terraform"
+    ],
+    "languages": [
+      "French",
+      "Spanish"
+    ],
+    "certifications": null,
+    "education[0].institution": "Coldbrook Polytechnic",
+    "education[0].degree": "BSc",
+    "education[0].field": "Mathematics",
+    "education[0].startDate": "2012-09-01",
+    "education[0].endDate": "2015-06-30",
+    "education[0].grade": null,
+    "experience[0].company": "Kestrel Analytics",
+    "experience[0].title": "Site Reliability Engineer",
+    "experience[0].startDate": "2020-12-01",
+    "experience[0].endDate": null,
+    "experience[0].current": true,
+    "experience[0].highlights": [
+      "Cut error rate by 59%.",
+      "Led a team of 3 across 4 services."
+    ],
+    "experience[1].company": "Larkspur Design",
+    "experience[1].title": "Analytics Lead",
+    "experience[1].startDate": "2020-10-01",
+    "experience[1].endDate": "2022-06-30",
+    "experience[1].current": false,
+    "experience[1].highlights": [
+      "Cut batch runtime by 31%.",
+      "Led a team of 7 across 5 services."
+    ]
+  }
+}

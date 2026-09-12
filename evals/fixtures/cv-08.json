@@ -1,0 +1,47 @@
+{
+  "type": "cv",
+  "file": "cv-08.pdf",
+  "fields": {
+    "fullName": "Priya Raman",
+    "email": "priya.raman@mailbox.example",
+    "phone": "+44 7700 900959",
+    "location": "Exeter",
+    "headline": "Data Platform Engineer",
+    "summary": "Data Platform Engineer with 15 years building data-heavy products in regulated settings.",
+    "skills": [
+      "PostgreSQL",
+      "Kubernetes",
+      "Figma",
+      "SQL",
+      "Rust"
+    ],
+    "languages": null,
+    "certifications": [
+      "CISSP"
+    ],
+    "education[0].institution": "Grendon College",
+    "education[0].degree": "BA",
+    "education[0].field": "Industrial Design",
+    "education[0].startDate": "2015-09-01",
+    "education[0].endDate": "2018-06-30",
+    "education[0].grade": null,
+    "experience[0].company": "Larkspur Design",
+    "experience[0].title": "Data Platform Engineer",
+    "experience[0].startDate": "2021-05-01",
+    "experience[0].endDate": null,
+    "experience[0].current": true,
+    "experience[0].highlights": [
+      "Cut batch runtime by 31%.",
+      "Led a team of 5 across 5 services."
+    ],
+    "experience[1].company": "Halcyon Metalworks",
+    "experience[1].title": "Product Designer",
+    "experience[1].startDate": "2016-11-01",
+    "experience[1].endDate": "2018-06-30",
+    "experience[1].current": false,
+    "experience[1].highlights": [
+      "Cut batch runtime by 30%.",
+      "Led a team of 5 across 4 services."
+    ]
+  }
+}

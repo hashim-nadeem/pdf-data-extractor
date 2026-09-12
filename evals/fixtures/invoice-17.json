@@ -1,0 +1,29 @@
+{
+  "type": "invoice",
+  "file": "invoice-17.pdf",
+  "fields": {
+    "invoiceNumber": "INV-2024-0816",
+    "issueDate": "2024-12-28",
+    "dueDate": null,
+    "currency": "EUR",
+    "vendor.name": "Kestrel Analytics",
+    "vendor.address": "14 Fennel Way, Bristol BS1 4TR",
+    "vendor.taxId": "GB324387301",
+    "vendor.email": "accounts@kestrelanalytics.example",
+    "customer.name": "Tessellate Media",
+    "customer.address": "51 Marlborough Row, Dublin D02 XY45",
+    "subtotal": 7957.4,
+    "taxRate": 20,
+    "taxAmount": 1591.48,
+    "total": 9548.88,
+    "paymentTerms": "Net 30",
+    "lineItems[0].description": "Courier, next day",
+    "lineItems[0].quantity": 4,
+    "lineItems[0].unitPrice": 275.99,
+    "lineItems[0].total": 1103.96,
+    "lineItems[1].description": "Packaging materials",
+    "lineItems[1].quantity": 12,
+    "lineItems[1].unitPrice": 571.12,
+    "lineItems[1].total": 6853.44
+  }
+}

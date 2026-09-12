@@ -1,0 +1,33 @@
+{
+  "type": "invoice",
+  "file": "invoice-09.pdf",
+  "fields": {
+    "invoiceNumber": "INV-2024-0808",
+    "issueDate": "2024-10-21",
+    "dueDate": null,
+    "currency": "USD",
+    "vendor.name": "Copperline Freight",
+    "vendor.address": "14 Fennel Way, Bristol BS1 4TR",
+    "vendor.taxId": "GB905195075",
+    "vendor.email": "accounts@copperlinefreight.example",
+    "customer.name": "Acme Logistics",
+    "customer.address": "51 Marlborough Row, Dublin D02 XY45",
+    "subtotal": 10863.74,
+    "taxRate": 20,
+    "taxAmount": 2172.75,
+    "total": 13036.49,
+    "paymentTerms": "Net 30",
+    "lineItems[0].description": "Cold storage, per week",
+    "lineItems[0].quantity": 11,
+    "lineItems[0].unitPrice": 425.59,
+    "lineItems[0].total": 4681.49,
+    "lineItems[1].description": "Courier, next day",
+    "lineItems[1].quantity": 5,
+    "lineItems[1].unitPrice": 798.37,
+    "lineItems[1].total": 3991.85,
+    "lineItems[2].description": "Consultancy, per day",
+    "lineItems[2].quantity": 10,
+    "lineItems[2].unitPrice": 219.04,
+    "lineItems[2].total": 2190.4
+  }
+}

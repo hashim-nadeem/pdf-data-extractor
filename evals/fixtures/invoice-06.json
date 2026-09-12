@@ -1,0 +1,33 @@
+{
+  "type": "invoice",
+  "file": "invoice-06.pdf",
+  "fields": {
+    "invoiceNumber": "INV-2024-0805",
+    "issueDate": "2024-06-20",
+    "dueDate": "2024-06-28",
+    "currency": "USD",
+    "vendor.name": "Ironwood Supplies",
+    "vendor.address": "163 Windmill Rise, Glasgow G1 2FF",
+    "vendor.taxId": "GB202346584",
+    "vendor.email": "accounts@ironwoodsupplies.example",
+    "customer.name": "Halcyon Metalworks",
+    "customer.address": "14 Fennel Way, Exeter EX4 6PL",
+    "subtotal": 7730.49,
+    "taxRate": 23,
+    "taxAmount": 1778.01,
+    "total": 9508.5,
+    "paymentTerms": null,
+    "lineItems[0].description": "Design retainer, monthly",
+    "lineItems[0].quantity": 7,
+    "lineItems[0].unitPrice": 631.33,
+    "lineItems[0].total": 4419.31,
+    "lineItems[1].description": "Print run, 500 copies",
+    "lineItems[1].quantity": 2,
+    "lineItems[1].unitPrice": 819.26,
+    "lineItems[1].total": 1638.52,
+    "lineItems[2].description": "Equipment hire, weekly",
+    "lineItems[2].quantity": 2,
+    "lineItems[2].unitPrice": 836.33,
+    "lineItems[2].total": 1672.66
+  }
+}

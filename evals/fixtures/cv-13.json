@@ -1,0 +1,48 @@
+{
+  "type": "cv",
+  "file": "cv-13.pdf",
+  "fields": {
+    "fullName": "Ada Marlow",
+    "email": "ada.marlow@mailbox.example",
+    "phone": "+44 7700 901644",
+    "location": "Manchester",
+    "headline": "Senior Backend Engineer",
+    "summary": null,
+    "skills": [
+      "PostgreSQL",
+      "Kubernetes",
+      "Figma",
+      "SQL",
+      "Rust"
+    ],
+    "languages": [
+      "English",
+      "French"
+    ],
+    "certifications": null,
+    "education[0].institution": "Grendon College",
+    "education[0].degree": "BA",
+    "education[0].field": "Industrial Design",
+    "education[0].startDate": "2012-09-01",
+    "education[0].endDate": "2015-06-30",
+    "education[0].grade": "First class honours",
+    "experience[0].company": "Northwind Ltd",
+    "experience[0].title": "Senior Backend Engineer",
+    "experience[0].startDate": "2021-03-01",
+    "experience[0].endDate": null,
+    "experience[0].current": true,
+    "experience[0].highlights": [
+      "Cut onboarding time by 54%.",
+      "Led a team of 8 across 5 services."
+    ],
+    "experience[1].company": "Vantage Print Co",
+    "experience[1].title": "Data Platform Engineer",
+    "experience[1].startDate": "2016-07-01",
+    "experience[1].endDate": "2018-06-30",
+    "experience[1].current": false,
+    "experience[1].highlights": [
+      "Cut page load by 26%.",
+      "Led a team of 8 across 3 services."
+    ]
+  }
+}

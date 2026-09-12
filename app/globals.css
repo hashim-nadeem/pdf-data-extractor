@@ -1,26 +1,169 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@custom-variant dark (&:is(.dark *));
 
 @theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-text: var(--text);
+  --color-text-muted: var(--text-muted);
+  --color-accent-text: var(--accent-text);
+  --color-ok: var(--ok);
+  --color-warn: var(--warn);
+  --color-bad: var(--bad);
+
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains);
+  --font-heading: var(--font-inter);
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+}
+
+:root {
+  --bg: oklch(99% 0 0);
+  --surface: oklch(97% 0.002 250);
+  --border: oklch(90% 0.004 250);
+  --text: oklch(20% 0.01 250);
+  --text-muted: oklch(52% 0.012 250);
+  --accent: oklch(62% 0.15 70); /* amber — this project */
+  --accent-fg: oklch(20% 0.02 70);
+  /* Amber fails AA as text on white; darkened for accent-coloured text only. */
+  --accent-text: oklch(45% 0.13 70);
+  --ok: oklch(50% 0.13 160);
+  --warn: oklch(52% 0.13 75);
+  --bad: oklch(52% 0.2 25);
+  --ok-fill: oklch(58% 0.15 160);
+  --warn-fill: oklch(70% 0.16 85);
+  --bad-fill: oklch(58% 0.2 25);
+  --radius: 0.625rem;
+
+  /* shadcn/ui reads these names; one palette drives both. */
+  --background: var(--bg);
+  --foreground: var(--text);
+  --card: var(--surface);
+  --card-foreground: var(--text);
+  --popover: var(--surface);
+  --popover-foreground: var(--text);
+  --primary: var(--accent);
+  --primary-foreground: var(--accent-fg);
+  --secondary: var(--surface);
+  --secondary-foreground: var(--text);
+  --muted: var(--surface);
+  --muted-foreground: var(--text-muted);
+  --accent-foreground: var(--accent-fg);
+  --destructive: var(--bad);
+  --input: var(--border);
+  --ring: var(--accent);
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  :root:not([data-theme="light"]) {
+    --bg: oklch(15% 0.008 260);
+    --surface: oklch(19% 0.01 260);
+    --border: oklch(28% 0.012 260);
+    --text: oklch(96% 0.004 260);
+    --text-muted: oklch(70% 0.012 260);
+    --accent: oklch(75% 0.14 70);
+    --accent-fg: oklch(16% 0.01 260);
+    --accent-text: oklch(80% 0.13 70);
+    --ok: oklch(76% 0.15 160);
+    --warn: oklch(82% 0.15 85);
+    --bad: oklch(70% 0.17 25);
+    --ok-fill: oklch(70% 0.15 160);
+    --warn-fill: oklch(78% 0.16 85);
+    --bad-fill: oklch(63% 0.19 25);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Repeated so an explicit toggle wins over the system preference. */
+:root[data-theme="dark"] {
+  --bg: oklch(15% 0.008 260);
+  --surface: oklch(19% 0.01 260);
+  --border: oklch(28% 0.012 260);
+  --text: oklch(96% 0.004 260);
+  --text-muted: oklch(70% 0.012 260);
+  --accent: oklch(75% 0.14 70);
+  --accent-fg: oklch(16% 0.01 260);
+  --accent-text: oklch(80% 0.13 70);
+  --ok: oklch(76% 0.15 160);
+  --warn: oklch(82% 0.15 85);
+  --bad: oklch(70% 0.17 25);
+  --ok-fill: oklch(70% 0.15 160);
+  --warn-fill: oklch(78% 0.16 85);
+  --bad-fill: oklch(63% 0.19 25);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  ::selection {
+    background: color-mix(in oklch, var(--accent) 30%, transparent);
+  }
+}
+
+/* The source highlight over the rendered PDF. */
+.src-highlight {
+  position: absolute;
+  background: color-mix(in oklch, var(--accent) 25%, transparent);
+  border: 2px solid var(--accent);
+  border-radius: 3px;
+  pointer-events: none;
+  opacity: 0;
+  animation: src-in 120ms ease-out forwards;
+}
+@keyframes src-in {
+  to {
+    opacity: 1;
+  }
+}
+
+/* react-pdf renders its own text layer; we only need it for measuring. */
+.react-pdf__Page__textContent span {
+  cursor: text;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .src-highlight {
+    opacity: 1;
+    animation: none;
+  }
 }

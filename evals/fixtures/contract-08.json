@@ -1,0 +1,30 @@
+{
+  "type": "contract",
+  "file": "contract-08.pdf",
+  "fields": {
+    "title": "Supply Agreement",
+    "parties[0].name": "Larkspur Design",
+    "parties[0].role": "Supplier",
+    "parties[0].address": "9 Purbeck Avenue, Exeter EX4 6PL",
+    "parties[1].name": "Pindrop Audio",
+    "parties[1].role": "Client",
+    "parties[1].address": "88 Ardith Road, Dublin D02 XY45",
+    "effectiveDate": "2024-07-04",
+    "expiryDate": "2026-07-04",
+    "term": "24 months",
+    "governingLaw": "Irish law",
+    "jurisdiction": "the courts of Ireland",
+    "paymentTerms": "Net 45",
+    "terminationNotice": "60 days",
+    "autoRenew": false,
+    "obligations": [
+      "Client shall provide access to its premises on five days notice.",
+      "Supplier shall maintain professional indemnity insurance of at least 1,000,000.",
+      "Each party shall keep the other's Confidential Information secret."
+    ],
+    "keyDates[0].date": "2024-07-04",
+    "keyDates[0].description": "Commencement Date",
+    "keyDates[1].date": "2024-09-15",
+    "keyDates[1].description": "First review meeting"
+  }
+}

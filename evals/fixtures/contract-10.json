@@ -1,0 +1,30 @@
+{
+  "type": "contract",
+  "file": "contract-10.pdf",
+  "fields": {
+    "title": "Master Services Agreement",
+    "parties[0].name": "Tessellate Media",
+    "parties[0].role": "Supplier",
+    "parties[0].address": "88 Ardith Road, Leeds LS2 7EX",
+    "parties[1].name": "Acme Logistics",
+    "parties[1].role": "Client",
+    "parties[1].address": "51 Marlborough Row, Manchester M2 5LA",
+    "effectiveDate": "2024-08-08",
+    "expiryDate": "2025-08-08",
+    "term": "12 months",
+    "governingLaw": "the laws of England and Wales",
+    "jurisdiction": "the courts of England and Wales",
+    "paymentTerms": "Net 30",
+    "terminationNotice": "30 days",
+    "autoRenew": false,
+    "obligations": [
+      "Supplier shall deliver the Services in accordance with Schedule 1.",
+      "Client shall provide access to its premises on five days notice.",
+      "Supplier shall maintain professional indemnity insurance of at least 1,000,000."
+    ],
+    "keyDates[0].date": "2024-08-08",
+    "keyDates[0].description": "Commencement Date",
+    "keyDates[1].date": "2024-10-15",
+    "keyDates[1].description": "First review meeting"
+  }
+}

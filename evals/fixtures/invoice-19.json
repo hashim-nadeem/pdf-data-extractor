@@ -1,0 +1,33 @@
+{
+  "type": "invoice",
+  "file": "invoice-19.pdf",
+  "fields": {
+    "invoiceNumber": "INV-2024-0818",
+    "issueDate": "2024-09-24",
+    "dueDate": "2024-09-28",
+    "currency": "GBP",
+    "vendor.name": "Meridian Foods",
+    "vendor.address": "2 Quarryman Lane, Dublin D02 XY45",
+    "vendor.taxId": null,
+    "vendor.email": "accounts@meridianfoods.example",
+    "customer.name": "Pindrop Audio",
+    "customer.address": "163 Windmill Rise, Manchester M2 5LA",
+    "subtotal": 10015.49,
+    "taxRate": 0,
+    "taxAmount": 0,
+    "total": 10015.49,
+    "paymentTerms": "Due on receipt",
+    "lineItems[0].description": "Site survey",
+    "lineItems[0].quantity": 8,
+    "lineItems[0].unitPrice": 753.51,
+    "lineItems[0].total": 6028.08,
+    "lineItems[1].description": "Freight surcharge",
+    "lineItems[1].quantity": 7,
+    "lineItems[1].unitPrice": 302.65,
+    "lineItems[1].total": 2118.55,
+    "lineItems[2].description": "Consultancy, per day",
+    "lineItems[2].quantity": 7,
+    "lineItems[2].unitPrice": 266.98,
+    "lineItems[2].total": 1868.86
+  }
+}

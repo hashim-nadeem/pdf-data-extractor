@@ -1,0 +1,48 @@
+{
+  "type": "cv",
+  "file": "cv-09.pdf",
+  "fields": {
+    "fullName": "Otto Lindqvist",
+    "email": "otto.lindqvist@mailbox.example",
+    "phone": "+44 7700 901096",
+    "location": "Bristol",
+    "headline": "Product Designer",
+    "summary": "Product Designer with 12 years building data-heavy products in regulated settings.",
+    "skills": [
+      "Kubernetes",
+      "Figma",
+      "SQL",
+      "Rust",
+      "React"
+    ],
+    "languages": [
+      "Spanish",
+      "German"
+    ],
+    "certifications": null,
+    "education[0].institution": "Westmarch University",
+    "education[0].degree": "MEng",
+    "education[0].field": "Mechanical Engineering",
+    "education[0].startDate": "2012-09-01",
+    "education[0].endDate": "2015-06-30",
+    "education[0].grade": null,
+    "experience[0].company": "Copperline Freight",
+    "experience[0].title": "Product Designer",
+    "experience[0].startDate": "2020-04-01",
+    "experience[0].endDate": null,
+    "experience[0].current": true,
+    "experience[0].highlights": [
+      "Cut batch runtime by 32%.",
+      "Led a team of 6 across 4 services."
+    ],
+    "experience[1].company": "Pindrop Audio",
+    "experience[1].title": "Operations Manager",
+    "experience[1].startDate": "2018-05-01",
+    "experience[1].endDate": "2020-06-30",
+    "experience[1].current": false,
+    "experience[1].highlights": [
+      "Cut page load by 58%.",
+      "Led a team of 9 across 5 services."
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "contract",
+  "file": "contract-09.pdf",
+  "fields": {
+    "title": "Consultancy Agreement",
+    "parties[0].name": "Copperline Freight",
+    "parties[0].role": "Supplier",
+    "parties[0].address": "14 Fennel Way, Bristol BS1 4TR",
+    "parties[1].name": "Northwind Ltd",
+    "parties[1].role": "Client",
+    "parties[1].address": "2 Quarryman Lane, Cardiff CF10 3AF",
+    "effectiveDate": "2024-04-14",
+    "expiryDate": "2027-04-14",
+    "term": "36 months",
+    "governingLaw": "Scots law",
+    "jurisdiction": "the Scottish courts",
+    "paymentTerms": "Within 21 days of invoice",
+    "terminationNotice": "90 days",
+    "autoRenew": true,
+    "obligations": [
+      "Supplier shall maintain professional indemnity insurance of at least 1,000,000.",
+      "Each party shall keep the other's Confidential Information secret.",
+      "Client shall pay all undisputed invoices within the agreed period."
+    ],
+    "keyDates[0].date": "2024-04-14",
+    "keyDates[0].description": "Commencement Date",
+    "keyDates[1].date": "2024-06-15",
+    "keyDates[1].description": "First review meeting"
+  }
+}

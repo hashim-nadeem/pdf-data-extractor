@@ -1,0 +1,47 @@
+{
+  "type": "cv",
+  "file": "cv-04.pdf",
+  "fields": {
+    "fullName": "Dmitri Vance",
+    "email": "dmitri.vance@mailbox.example",
+    "phone": "+44 7700 900411",
+    "location": "Cardiff",
+    "headline": "Operations Manager",
+    "summary": null,
+    "skills": [
+      "Kubernetes",
+      "Figma",
+      "SQL",
+      "Rust",
+      "React"
+    ],
+    "languages": null,
+    "certifications": [
+      "Google Professional Data Engineer"
+    ],
+    "education[0].institution": "Westmarch University",
+    "education[0].degree": "MEng",
+    "education[0].field": "Mechanical Engineering",
+    "education[0].startDate": "2015-09-01",
+    "education[0].endDate": "2018-06-30",
+    "education[0].grade": "First class honours",
+    "experience[0].company": "Vantage Print Co",
+    "experience[0].title": "Operations Manager",
+    "experience[0].startDate": "2020-01-01",
+    "experience[0].endDate": null,
+    "experience[0].current": true,
+    "experience[0].highlights": [
+      "Cut page load by 21%.",
+      "Led a team of 6 across 4 services."
+    ],
+    "experience[1].company": "Meridian Foods",
+    "experience[1].title": "Site Reliability Engineer",
+    "experience[1].startDate": "2018-04-01",
+    "experience[1].endDate": "2020-06-30",
+    "experience[1].current": false,
+    "experience[1].highlights": [
+      "Cut error rate by 27%.",
+      "Led a team of 3 across 2 services."
+    ]
+  }
+}

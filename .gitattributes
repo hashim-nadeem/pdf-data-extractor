@@ -1,0 +1,13 @@
+# Normalise line endings so the repo reads the same on every machine.
+* text=auto eol=lf
+
+# Binary assets — never touch these.
+*.pdf   binary
+*.gif   binary
+*.png   binary
+*.ico   binary
+*.webm  binary
+
+# Generated, and noisy in review.
+package-lock.json  -diff linguist-generated
+evals/fixtures/**  linguist-generated

@@ -1,0 +1,30 @@
+{
+  "type": "contract",
+  "file": "contract-06.pdf",
+  "fields": {
+    "title": "Consultancy Agreement",
+    "parties[0].name": "Ironwood Supplies",
+    "parties[0].role": "Supplier",
+    "parties[0].address": "163 Windmill Rise, Glasgow G1 2FF",
+    "parties[1].name": "Tessellate Media",
+    "parties[1].role": "Client",
+    "parties[1].address": "9 Purbeck Avenue, Bristol BS1 4TR",
+    "effectiveDate": "2024-07-28",
+    "expiryDate": null,
+    "term": "36 months",
+    "governingLaw": "Scots law",
+    "jurisdiction": "the Scottish courts",
+    "paymentTerms": "Within 21 days of invoice",
+    "terminationNotice": "90 days",
+    "autoRenew": false,
+    "obligations": [
+      "Supplier shall maintain professional indemnity insurance of at least 1,000,000.",
+      "Each party shall keep the other's Confidential Information secret.",
+      "Client shall pay all undisputed invoices within the agreed period."
+    ],
+    "keyDates[0].date": "2024-07-28",
+    "keyDates[0].description": "Commencement Date",
+    "keyDates[1].date": "2024-09-15",
+    "keyDates[1].description": "First review meeting"
+  }
+}

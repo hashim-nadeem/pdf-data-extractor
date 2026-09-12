@@ -1,0 +1,57 @@
+{
+  "type": "cv",
+  "file": "cv-15.pdf",
+  "fields": {
+    "fullName": "Ines Okafor",
+    "email": "ines.okafor@mailbox.example",
+    "phone": "+44 7700 901918",
+    "location": "Norwich",
+    "headline": "Product Designer",
+    "summary": "Product Designer with 6 years building data-heavy products in regulated settings.",
+    "skills": [
+      "Figma",
+      "SQL",
+      "Rust",
+      "React",
+      "Terraform"
+    ],
+    "languages": [
+      "Spanish",
+      "German"
+    ],
+    "certifications": null,
+    "education[0].institution": "Coldbrook Polytechnic",
+    "education[0].degree": "BSc",
+    "education[0].field": "Mathematics",
+    "education[0].startDate": "2014-09-01",
+    "education[0].endDate": "2017-06-30",
+    "education[0].grade": null,
+    "experience[0].company": "Blueharbor Systems",
+    "experience[0].title": "Product Designer",
+    "experience[0].startDate": "2020-12-01",
+    "experience[0].endDate": null,
+    "experience[0].current": true,
+    "experience[0].highlights": [
+      "Cut onboarding time by 66%.",
+      "Led a team of 6 across 2 services."
+    ],
+    "experience[1].company": "Ironwood Supplies",
+    "experience[1].title": "Operations Manager",
+    "experience[1].startDate": "2018-02-01",
+    "experience[1].endDate": "2020-06-30",
+    "experience[1].current": false,
+    "experience[1].highlights": [
+      "Cut error rate by 35%.",
+      "Led a team of 9 across 3 services."
+    ],
+    "experience[2].company": "Copperline Freight",
+    "experience[2].title": "Site Reliability Engineer",
+    "experience[2].startDate": "2015-08-01",
+    "experience[2].endDate": "2017-06-30",
+    "experience[2].current": false,
+    "experience[2].highlights": [
+      "Cut error rate by 66%.",
+      "Led a team of 6 across 4 services."
+    ]
+  }
+}

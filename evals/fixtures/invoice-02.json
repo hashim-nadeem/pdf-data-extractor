@@ -1,0 +1,29 @@
+{
+  "type": "invoice",
+  "file": "invoice-02.pdf",
+  "fields": {
+    "invoiceNumber": "INV-2024-0801",
+    "issueDate": "2024-02-08",
+    "dueDate": "2024-02-28",
+    "currency": "EUR",
+    "vendor.name": "Acme Logistics",
+    "vendor.address": "88 Ardith Road, Leeds LS2 7EX",
+    "vendor.taxId": "GB185691774",
+    "vendor.email": "accounts@acmelogistics.example",
+    "customer.name": "Meridian Foods",
+    "customer.address": "7 Tallow Street, Cardiff CF10 3AF",
+    "subtotal": 9175.77,
+    "taxRate": 23,
+    "taxAmount": 2110.43,
+    "total": 11286.2,
+    "paymentTerms": "Net 14",
+    "lineItems[0].description": "Packaging materials",
+    "lineItems[0].quantity": 4,
+    "lineItems[0].unitPrice": 598.98,
+    "lineItems[0].total": 2395.92,
+    "lineItems[1].description": "Cold storage, per week",
+    "lineItems[1].quantity": 11,
+    "lineItems[1].unitPrice": 616.35,
+    "lineItems[1].total": 6779.85
+  }
+}

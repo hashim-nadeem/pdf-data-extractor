@@ -1,0 +1,30 @@
+{
+  "type": "contract",
+  "file": "contract-04.pdf",
+  "fields": {
+    "title": "Master Services Agreement",
+    "parties[0].name": "Vantage Print Co",
+    "parties[0].role": "Supplier",
+    "parties[0].address": "51 Marlborough Row, Cardiff CF10 3AF",
+    "parties[1].name": "Larkspur Design",
+    "parties[1].role": "Client",
+    "parties[1].address": "163 Windmill Rise, Norwich NR1 3RJ",
+    "effectiveDate": "2024-05-05",
+    "expiryDate": "2025-05-05",
+    "term": "12 months",
+    "governingLaw": "the laws of England and Wales",
+    "jurisdiction": "the courts of England and Wales",
+    "paymentTerms": "Net 30",
+    "terminationNotice": "30 days",
+    "autoRenew": false,
+    "obligations": [
+      "Supplier shall deliver the Services in accordance with Schedule 1.",
+      "Client shall provide access to its premises on five days notice.",
+      "Supplier shall maintain professional indemnity insurance of at least 1,000,000."
+    ],
+    "keyDates[0].date": "2024-05-05",
+    "keyDates[0].description": "Commencement Date",
+    "keyDates[1].date": "2024-07-15",
+    "keyDates[1].description": "First review meeting"
+  }
+}

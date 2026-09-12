@@ -1,0 +1,30 @@
+{
+  "type": "contract",
+  "file": "contract-01.pdf",
+  "fields": {
+    "title": "Master Services Agreement",
+    "parties[0].name": "Northwind Ltd",
+    "parties[0].role": "Supplier",
+    "parties[0].address": "14 Fennel Way, Bristol BS1 4TR",
+    "parties[1].name": "Kestrel Analytics",
+    "parties[1].role": "Client",
+    "parties[1].address": "2 Quarryman Lane, Cardiff CF10 3AF",
+    "effectiveDate": "2024-09-11",
+    "expiryDate": null,
+    "term": "12 months",
+    "governingLaw": "the laws of England and Wales",
+    "jurisdiction": "the courts of England and Wales",
+    "paymentTerms": "Net 30",
+    "terminationNotice": "30 days",
+    "autoRenew": true,
+    "obligations": [
+      "Supplier shall deliver the Services in accordance with Schedule 1.",
+      "Client shall provide access to its premises on five days notice.",
+      "Supplier shall maintain professional indemnity insurance of at least 1,000,000."
+    ],
+    "keyDates[0].date": "2024-09-11",
+    "keyDates[0].description": "Commencement Date",
+    "keyDates[1].date": "2024-11-15",
+    "keyDates[1].description": "First review meeting"
+  }
+}

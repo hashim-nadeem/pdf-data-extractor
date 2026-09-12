@@ -1,0 +1,48 @@
+{
+  "type": "cv",
+  "file": "cv-11.pdf",
+  "fields": {
+    "fullName": "Nora Ashworth",
+    "email": "nora.ashworth@mailbox.example",
+    "phone": "+44 7700 901370",
+    "location": "Dublin",
+    "headline": "Site Reliability Engineer",
+    "summary": "Site Reliability Engineer with 12 years building data-heavy products in regulated settings.",
+    "skills": [
+      "TypeScript",
+      "Python",
+      "PostgreSQL",
+      "Kubernetes",
+      "Figma"
+    ],
+    "languages": [
+      "French",
+      "Spanish"
+    ],
+    "certifications": null,
+    "education[0].institution": "University of Ravenshill",
+    "education[0].degree": "BSc",
+    "education[0].field": "Computer Science",
+    "education[0].startDate": "2014-09-01",
+    "education[0].endDate": "2017-06-30",
+    "education[0].grade": null,
+    "experience[0].company": "Halcyon Metalworks",
+    "experience[0].title": "Site Reliability Engineer",
+    "experience[0].startDate": "2022-05-01",
+    "experience[0].endDate": null,
+    "experience[0].current": true,
+    "experience[0].highlights": [
+      "Cut page load by 63%.",
+      "Led a team of 9 across 3 services."
+    ],
+    "experience[1].company": "Acme Logistics",
+    "experience[1].title": "Analytics Lead",
+    "experience[1].startDate": "2018-10-01",
+    "experience[1].endDate": "2020-06-30",
+    "experience[1].current": false,
+    "experience[1].highlights": [
+      "Cut batch runtime by 63%.",
+      "Led a team of 5 across 3 services."
+    ]
+  }
+}

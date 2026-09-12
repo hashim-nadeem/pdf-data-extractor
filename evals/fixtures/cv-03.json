@@ -1,0 +1,48 @@
+{
+  "type": "cv",
+  "file": "cv-03.pdf",
+  "fields": {
+    "fullName": "Ines Okafor",
+    "email": "ines.okafor@mailbox.example",
+    "phone": "+44 7700 900274",
+    "location": "Dublin",
+    "headline": "Product Designer",
+    "summary": "Product Designer with 15 years building data-heavy products in regulated settings.",
+    "skills": [
+      "PostgreSQL",
+      "Kubernetes",
+      "Figma",
+      "SQL",
+      "Rust"
+    ],
+    "languages": [
+      "Spanish",
+      "German"
+    ],
+    "certifications": null,
+    "education[0].institution": "Grendon College",
+    "education[0].degree": "BA",
+    "education[0].field": "Industrial Design",
+    "education[0].startDate": "2014-09-01",
+    "education[0].endDate": "2017-06-30",
+    "education[0].grade": null,
+    "experience[0].company": "Blueharbor Systems",
+    "experience[0].title": "Product Designer",
+    "experience[0].startDate": "2020-11-01",
+    "experience[0].endDate": null,
+    "experience[0].current": true,
+    "experience[0].highlights": [
+      "Cut page load by 66%.",
+      "Led a team of 9 across 2 services."
+    ],
+    "experience[1].company": "Ironwood Supplies",
+    "experience[1].title": "Operations Manager",
+    "experience[1].startDate": "2016-09-01",
+    "experience[1].endDate": "2018-06-30",
+    "experience[1].current": false,
+    "experience[1].highlights": [
+      "Cut batch runtime by 69%.",
+      "Led a team of 6 across 4 services."
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "type": "cv",
+  "file": "cv-02.pdf",
+  "fields": {
+    "fullName": "Rowan Blythe",
+    "email": "rowan.blythe@mailbox.example",
+    "phone": "+44 7700 900137",
+    "location": "Leeds",
+    "headline": "Data Platform Engineer",
+    "summary": "Data Platform Engineer with 13 years building data-heavy products in regulated settings.",
+    "skills": [
+      "Python",
+      "PostgreSQL",
+      "Kubernetes",
+      "Figma",
+      "SQL"
+    ],
+    "languages": [
+      "French",
+      "Spanish"
+    ],
+    "certifications": [
+      "PRINCE2 Practitioner"
+    ],
+    "education[0].institution": "Aldermere Institute of Technology",
+    "education[0].degree": "MSc",
+    "education[0].field": "Data Engineering",
+    "education[0].startDate": "2013-09-01",
+    "education[0].endDate": "2016-06-30",
+    "education[0].grade": null,
+    "experience[0].company": "Acme Logistics",
+    "experience[0].title": "Data Platform Engineer",
+    "experience[0].startDate": "2021-06-01",
+    "experience[0].endDate": null,
+    "experience[0].current": true,
+    "experience[0].highlights": [
+      "Cut error rate by 23%.",
+      "Led a team of 5 across 2 services."
+    ],
+    "experience[1].company": "Kestrel Analytics",
+    "experience[1].title": "Product Designer",
+    "experience[1].startDate": "2018-01-01",
+    "experience[1].endDate": "2020-06-30",
+    "experience[1].current": false,
+    "experience[1].highlights": [
+      "Cut batch runtime by 23%.",
+      "Led a team of 5 across 4 services."
+    ]
+  }
+}

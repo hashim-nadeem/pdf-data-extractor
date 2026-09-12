@@ -1,0 +1,33 @@
+{
+  "type": "invoice",
+  "file": "invoice-05.pdf",
+  "fields": {
+    "invoiceNumber": "INV-2024-0804",
+    "issueDate": "2024-03-08",
+    "dueDate": null,
+    "currency": "EUR",
+    "vendor.name": "Kestrel Analytics",
+    "vendor.address": "7 Tallow Street, Manchester M2 5LA",
+    "vendor.taxId": "GB174881891",
+    "vendor.email": "accounts@kestrelanalytics.example",
+    "customer.name": "Tessellate Media",
+    "customer.address": "9 Purbeck Avenue, Norwich NR1 3RJ",
+    "subtotal": 7089.19,
+    "taxRate": 20,
+    "taxAmount": 1417.84,
+    "total": 8507.03,
+    "paymentTerms": "Net 30",
+    "lineItems[0].description": "Packaging materials",
+    "lineItems[0].quantity": 8,
+    "lineItems[0].unitPrice": 508.01,
+    "lineItems[0].total": 4064.08,
+    "lineItems[1].description": "Design retainer, monthly",
+    "lineItems[1].quantity": 8,
+    "lineItems[1].unitPrice": 348.81,
+    "lineItems[1].total": 2790.48,
+    "lineItems[2].description": "Courier, next day",
+    "lineItems[2].quantity": 11,
+    "lineItems[2].unitPrice": 21.33,
+    "lineItems[2].total": 234.63
+  }
+}

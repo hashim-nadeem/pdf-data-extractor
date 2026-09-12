@@ -1,0 +1,50 @@
+{
+  "type": "cv",
+  "file": "cv-10.pdf",
+  "fields": {
+    "fullName": "Sam Ferreira",
+    "email": "sam.ferreira@mailbox.example",
+    "phone": "+44 7700 901233",
+    "location": "Leeds",
+    "headline": "Operations Manager",
+    "summary": null,
+    "skills": [
+      "Figma",
+      "SQL",
+      "Rust",
+      "React",
+      "Terraform"
+    ],
+    "languages": [
+      "English",
+      "French"
+    ],
+    "certifications": [
+      "Certified Kubernetes Administrator"
+    ],
+    "education[0].institution": "Coldbrook Polytechnic",
+    "education[0].degree": "BSc",
+    "education[0].field": "Mathematics",
+    "education[0].startDate": "2013-09-01",
+    "education[0].endDate": "2016-06-30",
+    "education[0].grade": "First class honours",
+    "experience[0].company": "Tessellate Media",
+    "experience[0].title": "Operations Manager",
+    "experience[0].startDate": "2022-11-01",
+    "experience[0].endDate": null,
+    "experience[0].current": true,
+    "experience[0].highlights": [
+      "Cut onboarding time by 45%.",
+      "Led a team of 7 across 3 services."
+    ],
+    "experience[1].company": "Northwind Ltd",
+    "experience[1].title": "Site Reliability Engineer",
+    "experience[1].startDate": "2018-06-01",
+    "experience[1].endDate": "2020-06-30",
+    "experience[1].current": false,
+    "experience[1].highlights": [
+      "Cut page load by 34%.",
+      "Led a team of 4 across 3 services."
+    ]
+  }
+}

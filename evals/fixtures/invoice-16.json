@@ -1,0 +1,33 @@
+{
+  "type": "invoice",
+  "file": "invoice-16.pdf",
+  "fields": {
+    "invoiceNumber": "INV-2024-0815",
+    "issueDate": "2024-04-27",
+    "dueDate": "2024-04-28",
+    "currency": "GBP",
+    "vendor.name": "Vantage Print Co",
+    "vendor.address": "9 Purbeck Avenue, Exeter EX4 6PL",
+    "vendor.taxId": null,
+    "vendor.email": "accounts@vantageprintco.example",
+    "customer.name": "Copperline Freight",
+    "customer.address": "2 Quarryman Lane, Leeds LS2 7EX",
+    "subtotal": 5610.76,
+    "taxRate": 5,
+    "taxAmount": 280.54,
+    "total": 5891.3,
+    "paymentTerms": null,
+    "lineItems[0].description": "Freight surcharge",
+    "lineItems[0].quantity": 10,
+    "lineItems[0].unitPrice": 253.69,
+    "lineItems[0].total": 2536.9,
+    "lineItems[1].description": "Design retainer, monthly",
+    "lineItems[1].quantity": 4,
+    "lineItems[1].unitPrice": 686.16,
+    "lineItems[1].total": 2744.64,
+    "lineItems[2].description": "Consultancy, per day",
+    "lineItems[2].quantity": 2,
+    "lineItems[2].unitPrice": 164.61,
+    "lineItems[2].total": 329.22
+  }
+}

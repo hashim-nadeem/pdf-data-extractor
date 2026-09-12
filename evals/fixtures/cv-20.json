@@ -1,0 +1,56 @@
+{
+  "type": "cv",
+  "file": "cv-20.pdf",
+  "fields": {
+    "fullName": "Priya Raman",
+    "email": "priya.raman@mailbox.example",
+    "phone": "+44 7700 902603",
+    "location": "Cardiff",
+    "headline": "Data Platform Engineer",
+    "summary": "Data Platform Engineer with 14 years building data-heavy products in regulated settings.",
+    "skills": [
+      "Figma",
+      "SQL",
+      "Rust",
+      "React",
+      "Terraform"
+    ],
+    "languages": null,
+    "certifications": [
+      "Certified Kubernetes Administrator"
+    ],
+    "education[0].institution": "Coldbrook Polytechnic",
+    "education[0].degree": "BSc",
+    "education[0].field": "Mathematics",
+    "education[0].startDate": "2015-09-01",
+    "education[0].endDate": "2018-06-30",
+    "education[0].grade": null,
+    "experience[0].company": "Larkspur Design",
+    "experience[0].title": "Data Platform Engineer",
+    "experience[0].startDate": "2020-11-01",
+    "experience[0].endDate": null,
+    "experience[0].current": true,
+    "experience[0].highlights": [
+      "Cut batch runtime by 29%.",
+      "Led a team of 6 across 3 services."
+    ],
+    "experience[1].company": "Halcyon Metalworks",
+    "experience[1].title": "Product Designer",
+    "experience[1].startDate": "2018-04-01",
+    "experience[1].endDate": "2020-06-30",
+    "experience[1].current": false,
+    "experience[1].highlights": [
+      "Cut page load by 30%.",
+      "Led a team of 4 across 2 services."
+    ],
+    "experience[2].company": "Acme Logistics",
+    "experience[2].title": "Operations Manager",
+    "experience[2].startDate": "2012-07-01",
+    "experience[2].endDate": "2014-06-30",
+    "experience[2].current": false,
+    "experience[2].highlights": [
+      "Cut batch runtime by 31%.",
+      "Led a team of 5 across 4 services."
+    ]
+  }
+}

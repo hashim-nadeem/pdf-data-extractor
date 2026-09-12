@@ -1,0 +1,47 @@
+{
+  "type": "cv",
+  "file": "cv-12.pdf",
+  "fields": {
+    "fullName": "Elias Brandt",
+    "email": "elias.brandt@mailbox.example",
+    "phone": "+44 7700 901507",
+    "location": "Cardiff",
+    "headline": "Analytics Lead",
+    "summary": "Analytics Lead with 6 years building data-heavy products in regulated settings.",
+    "skills": [
+      "Python",
+      "PostgreSQL",
+      "Kubernetes",
+      "Figma",
+      "SQL"
+    ],
+    "languages": null,
+    "certifications": [
+      "PRINCE2 Practitioner"
+    ],
+    "education[0].institution": "Aldermere Institute of Technology",
+    "education[0].degree": "MSc",
+    "education[0].field": "Data Engineering",
+    "education[0].startDate": "2015-09-01",
+    "education[0].endDate": "2018-06-30",
+    "education[0].grade": null,
+    "experience[0].company": "Pindrop Audio",
+    "experience[0].title": "Analytics Lead",
+    "experience[0].startDate": "2022-07-01",
+    "experience[0].endDate": null,
+    "experience[0].current": true,
+    "experience[0].highlights": [
+      "Cut error rate by 40%.",
+      "Led a team of 7 across 5 services."
+    ],
+    "experience[1].company": "Blueharbor Systems",
+    "experience[1].title": "Senior Backend Engineer",
+    "experience[1].startDate": "2016-12-01",
+    "experience[1].endDate": "2018-06-30",
+    "experience[1].current": false,
+    "experience[1].highlights": [
+      "Cut batch runtime by 68%.",
+      "Led a team of 4 across 2 services."
+    ]
+  }
+}
