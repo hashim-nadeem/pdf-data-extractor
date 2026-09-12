@@ -1,0 +1,9 @@
+# Not imported by the app — keeps uploads small and stops a test-only type
+# error from ever blocking a production deploy. CI type-checks these instead.
+/evals
+/e2e
+/tests
+/scripts
+/docs
+/types
+playwright.config.ts
