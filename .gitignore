@@ -42,3 +42,6 @@ yarn-error.log*
 
 # the original build brief — not part of the deliverable
 03-document-extractor.md
+
+.vercel
+.env*
